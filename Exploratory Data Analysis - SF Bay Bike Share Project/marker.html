@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f79956eb1a3e4edea5f76d3a35a07dda {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f79956eb1a3e4edea5f76d3a35a07dda" ></div>
+        
+</body>
+<script>    
+    
+            var map_f79956eb1a3e4edea5f76d3a35a07dda = L.map(
+                "map_f79956eb1a3e4edea5f76d3a35a07dda",
+                {
+                    center: [37.774929, -122.419418],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d33ff867ff3d441499d76115ff10ec26 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+            var marker_9b3fc89dd31943d986e22f92326cd177 = L.marker(
+                [37.329732, -121.901782],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_e6e45f5046114897986f4331d94721ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08c221109dd04466b3d63245e479786a = $(`<div id="html_08c221109dd04466b3d63245e479786a" style="width: 100.0%; height: 100.0%;">San Jose Diridon Caltrain Station</div>`)[0];
+            popup_e6e45f5046114897986f4331d94721ca.setContent(html_08c221109dd04466b3d63245e479786a);
+        
+
+        marker_9b3fc89dd31943d986e22f92326cd177.bindPopup(popup_e6e45f5046114897986f4331d94721ca)
+        ;
+
+        
+    
+    
+            var marker_4dc2619028cd447598c46edcdf45c7d0 = L.marker(
+                [37.330698, -121.888979],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_eebf993adad14d7d9e5c0b0fe1ae6863 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ad50f4dea64fee87c7bdc0664869f3 = $(`<div id="html_53ad50f4dea64fee87c7bdc0664869f3" style="width: 100.0%; height: 100.0%;">San Jose Civic Center</div>`)[0];
+            popup_eebf993adad14d7d9e5c0b0fe1ae6863.setContent(html_53ad50f4dea64fee87c7bdc0664869f3);
+        
+
+        marker_4dc2619028cd447598c46edcdf45c7d0.bindPopup(popup_eebf993adad14d7d9e5c0b0fe1ae6863)
+        ;
+
+        
+    
+    
+            var marker_86f121110c1b4a8985def82a4501b5c2 = L.marker(
+                [37.333988, -121.894902],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_f0a15a2ff0784ec0a22acb883d2bb15b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_917a40c15fc641c8ba1ed1cd77a187b8 = $(`<div id="html_917a40c15fc641c8ba1ed1cd77a187b8" style="width: 100.0%; height: 100.0%;">Santa Clara at Almaden</div>`)[0];
+            popup_f0a15a2ff0784ec0a22acb883d2bb15b.setContent(html_917a40c15fc641c8ba1ed1cd77a187b8);
+        
+
+        marker_86f121110c1b4a8985def82a4501b5c2.bindPopup(popup_f0a15a2ff0784ec0a22acb883d2bb15b)
+        ;
+
+        
+    
+    
+            var marker_26286c97ec8f4191ba6cf2d23406fde4 = L.marker(
+                [37.331415, -121.8932],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_ad8c0905efbd456e9052e220dc996622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5e6c4de6c844a40b9fb476fc383f98e = $(`<div id="html_a5e6c4de6c844a40b9fb476fc383f98e" style="width: 100.0%; height: 100.0%;">Adobe on Almaden</div>`)[0];
+            popup_ad8c0905efbd456e9052e220dc996622.setContent(html_a5e6c4de6c844a40b9fb476fc383f98e);
+        
+
+        marker_26286c97ec8f4191ba6cf2d23406fde4.bindPopup(popup_ad8c0905efbd456e9052e220dc996622)
+        ;
+
+        
+    
+    
+            var marker_7766a317cbf8480b8a8d81ae2a94fde3 = L.marker(
+                [37.336721, -121.894074],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_ae9ff9d197a84176a92e6eb994f770d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eeea00b478c4b598355d0965764a936 = $(`<div id="html_5eeea00b478c4b598355d0965764a936" style="width: 100.0%; height: 100.0%;">San Pedro Square</div>`)[0];
+            popup_ae9ff9d197a84176a92e6eb994f770d7.setContent(html_5eeea00b478c4b598355d0965764a936);
+        
+
+        marker_7766a317cbf8480b8a8d81ae2a94fde3.bindPopup(popup_ae9ff9d197a84176a92e6eb994f770d7)
+        ;
+
+        
+    
+    
+            var marker_671fe86e368446e796439af1e63cb1f4 = L.marker(
+                [37.333798, -121.886943],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_64c9fe62175d435f9b2bf6f4da2cd0ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_263c785ae4ed4d5d9e4f42a1286b484b = $(`<div id="html_263c785ae4ed4d5d9e4f42a1286b484b" style="width: 100.0%; height: 100.0%;">Paseo de San Antonio</div>`)[0];
+            popup_64c9fe62175d435f9b2bf6f4da2cd0ba.setContent(html_263c785ae4ed4d5d9e4f42a1286b484b);
+        
+
+        marker_671fe86e368446e796439af1e63cb1f4.bindPopup(popup_64c9fe62175d435f9b2bf6f4da2cd0ba)
+        ;
+
+        
+    
+    
+            var marker_f5f48a6da259425c93036c64d4971300 = L.marker(
+                [37.330165, -121.885831],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_2b340f221ef0466c88d55b529ac01782 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58e6b671232a42278ebb2375b7555830 = $(`<div id="html_58e6b671232a42278ebb2375b7555830" style="width: 100.0%; height: 100.0%;">San Salvador at 1st</div>`)[0];
+            popup_2b340f221ef0466c88d55b529ac01782.setContent(html_58e6b671232a42278ebb2375b7555830);
+        
+
+        marker_f5f48a6da259425c93036c64d4971300.bindPopup(popup_2b340f221ef0466c88d55b529ac01782)
+        ;
+
+        
+    
+    
+            var marker_3e69fbca76314a2badfa468ccbc1688a = L.marker(
+                [37.348742, -121.894715],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_05b9f9ee7f9746d7945fbd5d30d068ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_069ef7acedd24c34ad3eb317b7e7c44d = $(`<div id="html_069ef7acedd24c34ad3eb317b7e7c44d" style="width: 100.0%; height: 100.0%;">Japantown</div>`)[0];
+            popup_05b9f9ee7f9746d7945fbd5d30d068ff.setContent(html_069ef7acedd24c34ad3eb317b7e7c44d);
+        
+
+        marker_3e69fbca76314a2badfa468ccbc1688a.bindPopup(popup_05b9f9ee7f9746d7945fbd5d30d068ff)
+        ;
+
+        
+    
+    
+            var marker_b9beb827985f4bf9b67b2c21127e15d2 = L.marker(
+                [37.337391, -121.886995],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_19dadfb7282748ec8f4a95c29966cfdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af5b15e2cddf44f29235ab6af3359ac6 = $(`<div id="html_af5b15e2cddf44f29235ab6af3359ac6" style="width: 100.0%; height: 100.0%;">San Jose City Hall</div>`)[0];
+            popup_19dadfb7282748ec8f4a95c29966cfdf.setContent(html_af5b15e2cddf44f29235ab6af3359ac6);
+        
+
+        marker_b9beb827985f4bf9b67b2c21127e15d2.bindPopup(popup_19dadfb7282748ec8f4a95c29966cfdf)
+        ;
+
+        
+    
+    
+            var marker_8f2959e5aff54704b0690f2a44f59e93 = L.marker(
+                [37.335885, -121.88566000000002],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_3b15d2db76984a8da7f47cb7b2beac10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_121d75c55751446f8e857ffc300cb107 = $(`<div id="html_121d75c55751446f8e857ffc300cb107" style="width: 100.0%; height: 100.0%;">MLK Library</div>`)[0];
+            popup_3b15d2db76984a8da7f47cb7b2beac10.setContent(html_121d75c55751446f8e857ffc300cb107);
+        
+
+        marker_8f2959e5aff54704b0690f2a44f59e93.bindPopup(popup_3b15d2db76984a8da7f47cb7b2beac10)
+        ;
+
+        
+    
+    
+            var marker_9cbee09a1417443a9343acdf6d823d9f = L.marker(
+                [37.332808, -121.883891],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_79a45c94dde140d2a0d0b620db551f4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_442118a5db56471193500888512ed08b = $(`<div id="html_442118a5db56471193500888512ed08b" style="width: 100.0%; height: 100.0%;">SJSU 4th at San Carlos</div>`)[0];
+            popup_79a45c94dde140d2a0d0b620db551f4f.setContent(html_442118a5db56471193500888512ed08b);
+        
+
+        marker_9cbee09a1417443a9343acdf6d823d9f.bindPopup(popup_79a45c94dde140d2a0d0b620db551f4f)
+        ;
+
+        
+    
+    
+            var marker_189f76dcf19a4e43beee85e5a46dc7cb = L.marker(
+                [37.339301, -121.88993700000002],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_bb78ca2013ab4440b85e17951eb81b72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54b168a7d7fa40b6a74f8d04f6eac649 = $(`<div id="html_54b168a7d7fa40b6a74f8d04f6eac649" style="width: 100.0%; height: 100.0%;">St James Park</div>`)[0];
+            popup_bb78ca2013ab4440b85e17951eb81b72.setContent(html_54b168a7d7fa40b6a74f8d04f6eac649);
+        
+
+        marker_189f76dcf19a4e43beee85e5a46dc7cb.bindPopup(popup_bb78ca2013ab4440b85e17951eb81b72)
+        ;
+
+        
+    
+    
+            var marker_6821a2078a094d0f98da11d14872974b = L.marker(
+                [37.332692, -121.900084],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_1577ac26a3e84c7cad8523c0e89c4885 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba2a7c9e86144402b60e3b264a37d56b = $(`<div id="html_ba2a7c9e86144402b60e3b264a37d56b" style="width: 100.0%; height: 100.0%;">Arena Green / SAP Center</div>`)[0];
+            popup_1577ac26a3e84c7cad8523c0e89c4885.setContent(html_ba2a7c9e86144402b60e3b264a37d56b);
+        
+
+        marker_6821a2078a094d0f98da11d14872974b.bindPopup(popup_1577ac26a3e84c7cad8523c0e89c4885)
+        ;
+
+        
+    
+    
+            var marker_9f8edd29b6164d49a123aa63a85a3df7 = L.marker(
+                [37.333955, -121.877349],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_4b38368e5443488fa44ee4732381fc51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02a3ee73de5b420c97745d25cf251063 = $(`<div id="html_02a3ee73de5b420c97745d25cf251063" style="width: 100.0%; height: 100.0%;">SJSU - San Salvador at 9th</div>`)[0];
+            popup_4b38368e5443488fa44ee4732381fc51.setContent(html_02a3ee73de5b420c97745d25cf251063);
+        
+
+        marker_9f8edd29b6164d49a123aa63a85a3df7.bindPopup(popup_4b38368e5443488fa44ee4732381fc51)
+        ;
+
+        
+    
+    
+            var marker_bf55319a95a049d1a02bc188b383bed2 = L.marker(
+                [37.481758, -122.226904],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_e6ab9356fe5040c8a01ff6784bcb27e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e84e7c9b0c054874b1aceeee1f9ad141 = $(`<div id="html_e84e7c9b0c054874b1aceeee1f9ad141" style="width: 100.0%; height: 100.0%;">Franklin at Maple</div>`)[0];
+            popup_e6ab9356fe5040c8a01ff6784bcb27e3.setContent(html_e84e7c9b0c054874b1aceeee1f9ad141);
+        
+
+        marker_bf55319a95a049d1a02bc188b383bed2.bindPopup(popup_e6ab9356fe5040c8a01ff6784bcb27e3)
+        ;
+
+        
+    
+    
+            var marker_e2cb8b3c66b445e49d4dc72da378a297 = L.marker(
+                [37.486078000000006, -122.232089],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_24346b7d9df0412592546a800de5d4b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fda87415f32046f69e34e7cb5b2cf6ee = $(`<div id="html_fda87415f32046f69e34e7cb5b2cf6ee" style="width: 100.0%; height: 100.0%;">Redwood City Caltrain Station</div>`)[0];
+            popup_24346b7d9df0412592546a800de5d4b5.setContent(html_fda87415f32046f69e34e7cb5b2cf6ee);
+        
+
+        marker_e2cb8b3c66b445e49d4dc72da378a297.bindPopup(popup_24346b7d9df0412592546a800de5d4b5)
+        ;
+
+        
+    
+    
+            var marker_0145441212c24c8aaa92b63073ecb83d = L.marker(
+                [37.487616, -122.229951],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_9b8fe4197b67425d8c4e46565d19de6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd182a7a843a4f48bd9a8da8ca9bf62f = $(`<div id="html_fd182a7a843a4f48bd9a8da8ca9bf62f" style="width: 100.0%; height: 100.0%;">San Mateo County Center</div>`)[0];
+            popup_9b8fe4197b67425d8c4e46565d19de6f.setContent(html_fd182a7a843a4f48bd9a8da8ca9bf62f);
+        
+
+        marker_0145441212c24c8aaa92b63073ecb83d.bindPopup(popup_9b8fe4197b67425d8c4e46565d19de6f)
+        ;
+
+        
+    
+    
+            var marker_bc48cca5a59345d7af1997852e96557f = L.marker(
+                [37.484219, -122.227424],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_05c49667c958462aa7e52779147c5b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0c6559f2d6f45e2a3e704df6f0b98ea = $(`<div id="html_f0c6559f2d6f45e2a3e704df6f0b98ea" style="width: 100.0%; height: 100.0%;">Redwood City Public Library</div>`)[0];
+            popup_05c49667c958462aa7e52779147c5b2d.setContent(html_f0c6559f2d6f45e2a3e704df6f0b98ea);
+        
+
+        marker_bc48cca5a59345d7af1997852e96557f.bindPopup(popup_05c49667c958462aa7e52779147c5b2d)
+        ;
+
+        
+    
+    
+            var marker_f8f7dd8e497d4e1984706c668019c146 = L.marker(
+                [37.48537, -122.203288],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_a60d350dbe84437cbd29ea6ed4205e1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3c1360ac87d4204bffbdea987d2a30d = $(`<div id="html_b3c1360ac87d4204bffbdea987d2a30d" style="width: 100.0%; height: 100.0%;">Stanford in Redwood City</div>`)[0];
+            popup_a60d350dbe84437cbd29ea6ed4205e1f.setContent(html_b3c1360ac87d4204bffbdea987d2a30d);
+        
+
+        marker_f8f7dd8e497d4e1984706c668019c146.bindPopup(popup_a60d350dbe84437cbd29ea6ed4205e1f)
+        ;
+
+        
+    
+    
+            var marker_e1a1ff1cb3d34e66a6c0e45edd995d9f = L.marker(
+                [37.487682, -122.223492],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_9da238d34e8045a7885747dd3a908168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_233477e0420b4411a6b89a438e2eeb59 = $(`<div id="html_233477e0420b4411a6b89a438e2eeb59" style="width: 100.0%; height: 100.0%;">Redwood City Medical Center</div>`)[0];
+            popup_9da238d34e8045a7885747dd3a908168.setContent(html_233477e0420b4411a6b89a438e2eeb59);
+        
+
+        marker_e1a1ff1cb3d34e66a6c0e45edd995d9f.bindPopup(popup_9da238d34e8045a7885747dd3a908168)
+        ;
+
+        
+    
+    
+            var marker_a3209a32582149e990ee02042b78cb67 = L.marker(
+                [37.389218, -122.081896],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_98870fd1a77c4ef28a45059319463497 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00935078c39c4965a56768f86305aacb = $(`<div id="html_00935078c39c4965a56768f86305aacb" style="width: 100.0%; height: 100.0%;">Mountain View City Hall</div>`)[0];
+            popup_98870fd1a77c4ef28a45059319463497.setContent(html_00935078c39c4965a56768f86305aacb);
+        
+
+        marker_a3209a32582149e990ee02042b78cb67.bindPopup(popup_98870fd1a77c4ef28a45059319463497)
+        ;
+
+        
+    
+    
+            var marker_97afa16f18b34204b4e6a791f1e2d952 = L.marker(
+                [37.394358, -122.07671299999998],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_5cec2011e6ac41ea8044499adc1d8031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a568aa9b493c493ea0b02f82e9ce993e = $(`<div id="html_a568aa9b493c493ea0b02f82e9ce993e" style="width: 100.0%; height: 100.0%;">Mountain View Caltrain Station</div>`)[0];
+            popup_5cec2011e6ac41ea8044499adc1d8031.setContent(html_a568aa9b493c493ea0b02f82e9ce993e);
+        
+
+        marker_97afa16f18b34204b4e6a791f1e2d952.bindPopup(popup_5cec2011e6ac41ea8044499adc1d8031)
+        ;
+
+        
+    
+    
+            var marker_ffb4c442639d4162b14e672681449a56 = L.marker(
+                [37.40694000000001, -122.106758],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_39505ea099c04a0f8523629f1cb60ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d877ded1945244d5ad530f87887d8699 = $(`<div id="html_d877ded1945244d5ad530f87887d8699" style="width: 100.0%; height: 100.0%;">San Antonio Caltrain Station</div>`)[0];
+            popup_39505ea099c04a0f8523629f1cb60ad5.setContent(html_d877ded1945244d5ad530f87887d8699);
+        
+
+        marker_ffb4c442639d4162b14e672681449a56.bindPopup(popup_39505ea099c04a0f8523629f1cb60ad5)
+        ;
+
+        
+    
+    
+            var marker_43da175e708c482d9db4f50809aa34e6 = L.marker(
+                [37.39027700000001, -122.066553],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_d2c2d33d6f834ea797d591e0ac6294d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5822f4e3008d44338a8c9f986b978284 = $(`<div id="html_5822f4e3008d44338a8c9f986b978284" style="width: 100.0%; height: 100.0%;">Evelyn Park and Ride</div>`)[0];
+            popup_d2c2d33d6f834ea797d591e0ac6294d0.setContent(html_5822f4e3008d44338a8c9f986b978284);
+        
+
+        marker_43da175e708c482d9db4f50809aa34e6.bindPopup(popup_d2c2d33d6f834ea797d591e0ac6294d0)
+        ;
+
+        
+    
+    
+            var marker_f97c3e5c1ea642b88ae9f6e38a3ebf7a = L.marker(
+                [37.400443, -122.108338],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_144df71955774f2fb9a49a536f5aaee2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ac94f5ef88c493c8767adf685d0da16 = $(`<div id="html_7ac94f5ef88c493c8767adf685d0da16" style="width: 100.0%; height: 100.0%;">San Antonio Shopping Center</div>`)[0];
+            popup_144df71955774f2fb9a49a536f5aaee2.setContent(html_7ac94f5ef88c493c8767adf685d0da16);
+        
+
+        marker_f97c3e5c1ea642b88ae9f6e38a3ebf7a.bindPopup(popup_144df71955774f2fb9a49a536f5aaee2)
+        ;
+
+        
+    
+    
+            var marker_d1189aca9fb14ec181ef209966bd414d = L.marker(
+                [37.385956, -122.083678],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_40bd3c4daa8040b79c58a7ac1d1e00fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_833a6aff2a25418293afbf7f8c44beb2 = $(`<div id="html_833a6aff2a25418293afbf7f8c44beb2" style="width: 100.0%; height: 100.0%;">Castro Street and El Camino Real</div>`)[0];
+            popup_40bd3c4daa8040b79c58a7ac1d1e00fc.setContent(html_833a6aff2a25418293afbf7f8c44beb2);
+        
+
+        marker_d1189aca9fb14ec181ef209966bd414d.bindPopup(popup_40bd3c4daa8040b79c58a7ac1d1e00fc)
+        ;
+
+        
+    
+    
+            var marker_bc2e1db183fa4dbdbbf6cdf7fc37ba55 = L.marker(
+                [37.400241, -122.099076],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_f94c854b4d62450cab7b5c9cbf1c330d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfef8a17df89419a96ffd37e0630d76d = $(`<div id="html_cfef8a17df89419a96ffd37e0630d76d" style="width: 100.0%; height: 100.0%;">Rengstorff Avenue / California Street</div>`)[0];
+            popup_f94c854b4d62450cab7b5c9cbf1c330d.setContent(html_cfef8a17df89419a96ffd37e0630d76d);
+        
+
+        marker_bc2e1db183fa4dbdbbf6cdf7fc37ba55.bindPopup(popup_f94c854b4d62450cab7b5c9cbf1c330d)
+        ;
+
+        
+    
+    
+            var marker_af325a888ef343db97865f84e7ca09b4 = L.marker(
+                [37.443988, -122.164759],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_5b84dae237e24ba994528f0dc448d922 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f001a7555024bc6a712dfe54c05a811 = $(`<div id="html_5f001a7555024bc6a712dfe54c05a811" style="width: 100.0%; height: 100.0%;">Palo Alto Caltrain Station</div>`)[0];
+            popup_5b84dae237e24ba994528f0dc448d922.setContent(html_5f001a7555024bc6a712dfe54c05a811);
+        
+
+        marker_af325a888ef343db97865f84e7ca09b4.bindPopup(popup_5b84dae237e24ba994528f0dc448d922)
+        ;
+
+        
+    
+    
+            var marker_dbed781e51a04239b6a6af0f2b2a1c33 = L.marker(
+                [37.444521, -122.163093],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_e9957c91c6c54a34bee1996ace727d95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff253b70284e4492b49db54f1a4f1e27 = $(`<div id="html_ff253b70284e4492b49db54f1a4f1e27" style="width: 100.0%; height: 100.0%;">University and Emerson</div>`)[0];
+            popup_e9957c91c6c54a34bee1996ace727d95.setContent(html_ff253b70284e4492b49db54f1a4f1e27);
+        
+
+        marker_dbed781e51a04239b6a6af0f2b2a1c33.bindPopup(popup_e9957c91c6c54a34bee1996ace727d95)
+        ;
+
+        
+    
+    
+            var marker_18b8971b0bdd44e9b2e972fbe59b55cd = L.marker(
+                [37.429082, -122.142805],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_47329a35f5fd4e018affd3eb736cf20d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7eb3ce3d8550477499f9fb2a80ff4542 = $(`<div id="html_7eb3ce3d8550477499f9fb2a80ff4542" style="width: 100.0%; height: 100.0%;">California Ave Caltrain Station</div>`)[0];
+            popup_47329a35f5fd4e018affd3eb736cf20d.setContent(html_7eb3ce3d8550477499f9fb2a80ff4542);
+        
+
+        marker_18b8971b0bdd44e9b2e972fbe59b55cd.bindPopup(popup_47329a35f5fd4e018affd3eb736cf20d)
+        ;
+
+        
+    
+    
+            var marker_8383b7fb7b124d0181f3cb731a0a1c1d = L.marker(
+                [37.448598, -122.159504],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_5b86953cbb1945f0871a76d91e4aefbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60dd92bde9d1449c9ce11ac16d1e2e6e = $(`<div id="html_60dd92bde9d1449c9ce11ac16d1e2e6e" style="width: 100.0%; height: 100.0%;">Cowper at University</div>`)[0];
+            popup_5b86953cbb1945f0871a76d91e4aefbe.setContent(html_60dd92bde9d1449c9ce11ac16d1e2e6e);
+        
+
+        marker_8383b7fb7b124d0181f3cb731a0a1c1d.bindPopup(popup_5b86953cbb1945f0871a76d91e4aefbe)
+        ;
+
+        
+    
+    
+            var marker_3ff130446dbb4956a61343a3d0d77a24 = L.marker(
+                [37.4256839, -122.13777749999998],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_87ec6d0149f34fe284d12f16279377b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_384f6d07c9774cd3844d6707b9127e1a = $(`<div id="html_384f6d07c9774cd3844d6707b9127e1a" style="width: 100.0%; height: 100.0%;">Park at Olive</div>`)[0];
+            popup_87ec6d0149f34fe284d12f16279377b0.setContent(html_384f6d07c9774cd3844d6707b9127e1a);
+        
+
+        marker_3ff130446dbb4956a61343a3d0d77a24.bindPopup(popup_87ec6d0149f34fe284d12f16279377b0)
+        ;
+
+        
+    
+    
+            var marker_9c9682c9711643f2b11b8ed6256bf67c = L.marker(
+                [37.795001, -122.39997],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_195049ef58f24b29b066f6bdfa7361ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bac27fca7c5c41acb277de176c859d07 = $(`<div id="html_bac27fca7c5c41acb277de176c859d07" style="width: 100.0%; height: 100.0%;">Clay at Battery</div>`)[0];
+            popup_195049ef58f24b29b066f6bdfa7361ac.setContent(html_bac27fca7c5c41acb277de176c859d07);
+        
+
+        marker_9c9682c9711643f2b11b8ed6256bf67c.bindPopup(popup_195049ef58f24b29b066f6bdfa7361ac)
+        ;
+
+        
+    
+    
+            var marker_d4d8775e9d5645d5b6a1b17ad7649e7f = L.marker(
+                [37.79728, -122.398436],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_aea39d8dbc7b4cf8a36ee09909deda02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bea8a07e11343a0a3b6ef2ee56bde35 = $(`<div id="html_6bea8a07e11343a0a3b6ef2ee56bde35" style="width: 100.0%; height: 100.0%;">Davis at Jackson</div>`)[0];
+            popup_aea39d8dbc7b4cf8a36ee09909deda02.setContent(html_6bea8a07e11343a0a3b6ef2ee56bde35);
+        
+
+        marker_d4d8775e9d5645d5b6a1b17ad7649e7f.bindPopup(popup_aea39d8dbc7b4cf8a36ee09909deda02)
+        ;
+
+        
+    
+    
+            var marker_9e1f22bb873e486f8f9101fbf4c49cc9 = L.marker(
+                [37.794231, -122.402923],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_b4b07fef9c36465fb8350e86e9b9358f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebd6f7966ccf4f0c91a1257b3e33856a = $(`<div id="html_ebd6f7966ccf4f0c91a1257b3e33856a" style="width: 100.0%; height: 100.0%;">Commercial at Montgomery</div>`)[0];
+            popup_b4b07fef9c36465fb8350e86e9b9358f.setContent(html_ebd6f7966ccf4f0c91a1257b3e33856a);
+        
+
+        marker_9e1f22bb873e486f8f9101fbf4c49cc9.bindPopup(popup_b4b07fef9c36465fb8350e86e9b9358f)
+        ;
+
+        
+    
+    
+            var marker_11941f2f79c44cbf9a64d14316c503ca = L.marker(
+                [37.795425, -122.404767],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_b838f7af33ab4952856bd05ee7443d17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06e5a86862ee4b18a93657e91c04d46e = $(`<div id="html_06e5a86862ee4b18a93657e91c04d46e" style="width: 100.0%; height: 100.0%;">Washington at Kearney</div>`)[0];
+            popup_b838f7af33ab4952856bd05ee7443d17.setContent(html_06e5a86862ee4b18a93657e91c04d46e);
+        
+
+        marker_11941f2f79c44cbf9a64d14316c503ca.bindPopup(popup_b838f7af33ab4952856bd05ee7443d17)
+        ;
+
+        
+    
+    
+            var marker_7e9d5577c58d4935bb8c74cee6809cf3 = L.marker(
+                [37.788975, -122.403452],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_d85594c3dd1f425b9e71a3f459df35ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae69d760572f441e85d961a41bb82370 = $(`<div id="html_ae69d760572f441e85d961a41bb82370" style="width: 100.0%; height: 100.0%;">Post at Kearney</div>`)[0];
+            popup_d85594c3dd1f425b9e71a3f459df35ea.setContent(html_ae69d760572f441e85d961a41bb82370);
+        
+
+        marker_7e9d5577c58d4935bb8c74cee6809cf3.bindPopup(popup_d85594c3dd1f425b9e71a3f459df35ea)
+        ;
+
+        
+    
+    
+            var marker_5fc020de6bc54382b7e0d2e5633702b7 = L.marker(
+                [37.799953, -122.398525],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_97c5469af48f4b75ab31e3598c452006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38e1428bb67b4ed9be89fc7424c34768 = $(`<div id="html_38e1428bb67b4ed9be89fc7424c34768" style="width: 100.0%; height: 100.0%;">Embarcadero at Vallejo</div>`)[0];
+            popup_97c5469af48f4b75ab31e3598c452006.setContent(html_38e1428bb67b4ed9be89fc7424c34768);
+        
+
+        marker_5fc020de6bc54382b7e0d2e5633702b7.bindPopup(popup_97c5469af48f4b75ab31e3598c452006)
+        ;
+
+        
+    
+    
+            var marker_7c7462883e8741048d9426efd9018f99 = L.marker(
+                [37.790302, -122.390637],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_042026efb422471aa7dbde553d309b48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57238e1d2c964d4180cf03f7c4c7a083 = $(`<div id="html_57238e1d2c964d4180cf03f7c4c7a083" style="width: 100.0%; height: 100.0%;">Spear at Folsom</div>`)[0];
+            popup_042026efb422471aa7dbde553d309b48.setContent(html_57238e1d2c964d4180cf03f7c4c7a083);
+        
+
+        marker_7c7462883e8741048d9426efd9018f99.bindPopup(popup_042026efb422471aa7dbde553d309b48)
+        ;
+
+        
+    
+    
+            var marker_5b864cfe9983488b82e4a54593c5cbd8 = L.marker(
+                [37.795392, -122.394203],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_ec101eadcfc04b5591800053861f41f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cb08d13faaf4234a5fe1f2bfa48d6c5 = $(`<div id="html_2cb08d13faaf4234a5fe1f2bfa48d6c5" style="width: 100.0%; height: 100.0%;">Harry Bridges Plaza (Ferry Building)</div>`)[0];
+            popup_ec101eadcfc04b5591800053861f41f0.setContent(html_2cb08d13faaf4234a5fe1f2bfa48d6c5);
+        
+
+        marker_5b864cfe9983488b82e4a54593c5cbd8.bindPopup(popup_ec101eadcfc04b5591800053861f41f0)
+        ;
+
+        
+    
+    
+            var marker_98f91284c0fb49ef8c2fff15f06679e4 = L.marker(
+                [37.79146400000001, -122.391034],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_f171bd8b959741f5846cdca06b0a287a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07cfd588334b41b2b9da0675ac426c66 = $(`<div id="html_07cfd588334b41b2b9da0675ac426c66" style="width: 100.0%; height: 100.0%;">Embarcadero at Folsom</div>`)[0];
+            popup_f171bd8b959741f5846cdca06b0a287a.setContent(html_07cfd588334b41b2b9da0675ac426c66);
+        
+
+        marker_98f91284c0fb49ef8c2fff15f06679e4.bindPopup(popup_f171bd8b959741f5846cdca06b0a287a)
+        ;
+
+        
+    
+    
+            var marker_7e203d2e278243bd996655759799a7ef = L.marker(
+                [37.78387100000001, -122.408433],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_dc6b38c23c2645e2a5b3ea58126db10f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_752df6273bd94f548b9c4583c50665da = $(`<div id="html_752df6273bd94f548b9c4583c50665da" style="width: 100.0%; height: 100.0%;">Powell Street BART</div>`)[0];
+            popup_dc6b38c23c2645e2a5b3ea58126db10f.setContent(html_752df6273bd94f548b9c4583c50665da);
+        
+
+        marker_7e203d2e278243bd996655759799a7ef.bindPopup(popup_dc6b38c23c2645e2a5b3ea58126db10f)
+        ;
+
+        
+    
+    
+            var marker_d18c7c0931bb4bd89a93545136098ef0 = L.marker(
+                [37.787152, -122.388013],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_a05e7524a46d41e1825d480887a01742 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a35e4ae65b3d486088a73952472b789b = $(`<div id="html_a35e4ae65b3d486088a73952472b789b" style="width: 100.0%; height: 100.0%;">Embarcadero at Bryant</div>`)[0];
+            popup_a05e7524a46d41e1825d480887a01742.setContent(html_a35e4ae65b3d486088a73952472b789b);
+        
+
+        marker_d18c7c0931bb4bd89a93545136098ef0.bindPopup(popup_a05e7524a46d41e1825d480887a01742)
+        ;
+
+        
+    
+    
+            var marker_e5dd358701f54b209fdb51648b36d37b = L.marker(
+                [37.789756, -122.394643],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_9556570babd54efdb1ccd921008f4f6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e0badd04e244828aaa7f1a7f3981166 = $(`<div id="html_2e0badd04e244828aaa7f1a7f3981166" style="width: 100.0%; height: 100.0%;">Temporary Transbay Terminal (Howard at Beale)</div>`)[0];
+            popup_9556570babd54efdb1ccd921008f4f6f.setContent(html_2e0badd04e244828aaa7f1a7f3981166);
+        
+
+        marker_e5dd358701f54b209fdb51648b36d37b.bindPopup(popup_9556570babd54efdb1ccd921008f4f6f)
+        ;
+
+        
+    
+    
+            var marker_c23f72286e1f4358bb05a178e8601631 = L.marker(
+                [37.792251, -122.39708600000002],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_971628cd1e1342278e8b32d3bcab7f6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9561ae92eed480e9dbf6bd9bc06b072 = $(`<div id="html_b9561ae92eed480e9dbf6bd9bc06b072" style="width: 100.0%; height: 100.0%;">Beale at Market</div>`)[0];
+            popup_971628cd1e1342278e8b32d3bcab7f6c.setContent(html_b9561ae92eed480e9dbf6bd9bc06b072);
+        
+
+        marker_c23f72286e1f4358bb05a178e8601631.bindPopup(popup_971628cd1e1342278e8b32d3bcab7f6c)
+        ;
+
+        
+    
+    
+            var marker_086d834b5ffa462c9605fc5fcf8ee414 = L.marker(
+                [37.781752, -122.405127],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_3589b6c32795423e8630c55f524b262b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b4f391808de49f08aae3106de5171b8 = $(`<div id="html_0b4f391808de49f08aae3106de5171b8" style="width: 100.0%; height: 100.0%;">5th at Howard</div>`)[0];
+            popup_3589b6c32795423e8630c55f524b262b.setContent(html_0b4f391808de49f08aae3106de5171b8);
+        
+
+        marker_086d834b5ffa462c9605fc5fcf8ee414.bindPopup(popup_3589b6c32795423e8630c55f524b262b)
+        ;
+
+        
+    
+    
+            var marker_2a03490f5efe4f45b3e92fdff018751c = L.marker(
+                [37.77865, -122.418235],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_3c52abf44fc34c5e848335ba73bbc8f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95264e30a9a34511b0908277161c2ca5 = $(`<div id="html_95264e30a9a34511b0908277161c2ca5" style="width: 100.0%; height: 100.0%;">San Francisco City Hall</div>`)[0];
+            popup_3c52abf44fc34c5e848335ba73bbc8f8.setContent(html_95264e30a9a34511b0908277161c2ca5);
+        
+
+        marker_2a03490f5efe4f45b3e92fdff018751c.bindPopup(popup_3c52abf44fc34c5e848335ba73bbc8f8)
+        ;
+
+        
+    
+    
+            var marker_ac838bf030bd4107a93a0295ac42ec18 = L.marker(
+                [37.781332, -122.418603],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_c13aa5aa9d434131bf77202ed37e4aec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f577391122b4c04b9281c86e91200db = $(`<div id="html_3f577391122b4c04b9281c86e91200db" style="width: 100.0%; height: 100.0%;">Golden Gate at Polk</div>`)[0];
+            popup_c13aa5aa9d434131bf77202ed37e4aec.setContent(html_3f577391122b4c04b9281c86e91200db);
+        
+
+        marker_ac838bf030bd4107a93a0295ac42ec18.bindPopup(popup_c13aa5aa9d434131bf77202ed37e4aec)
+        ;
+
+        
+    
+    
+            var marker_b0f49bc2ca384882884d2297dc7a855e = L.marker(
+                [37.80477, -122.403234],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_45eec9ae162140d68ad59b945145a33e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd99bc4a7f3449d2850c330773538147 = $(`<div id="html_dd99bc4a7f3449d2850c330773538147" style="width: 100.0%; height: 100.0%;">Embarcadero at Sansome</div>`)[0];
+            popup_45eec9ae162140d68ad59b945145a33e.setContent(html_dd99bc4a7f3449d2850c330773538147);
+        
+
+        marker_b0f49bc2ca384882884d2297dc7a855e.bindPopup(popup_45eec9ae162140d68ad59b945145a33e)
+        ;
+
+        
+    
+    
+            var marker_18f8020744d94900a55cfa1a7da466dc = L.marker(
+                [37.780526, -122.39028799999998],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_1a283dd852634accab3f387e3f62a68a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_578302cbf20b4faf86b27795e41d6dae = $(`<div id="html_578302cbf20b4faf86b27795e41d6dae" style="width: 100.0%; height: 100.0%;">2nd at Townsend</div>`)[0];
+            popup_1a283dd852634accab3f387e3f62a68a.setContent(html_578302cbf20b4faf86b27795e41d6dae);
+        
+
+        marker_18f8020744d94900a55cfa1a7da466dc.bindPopup(popup_1a283dd852634accab3f387e3f62a68a)
+        ;
+
+        
+    
+    
+            var marker_b9c0051957654a14b42717a07908d556 = L.marker(
+                [37.785299, -122.39623600000002],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_f4ee3d91423d450b83c054c201973dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd15540c74fd4e17961473553ec1e0b1 = $(`<div id="html_dd15540c74fd4e17961473553ec1e0b1" style="width: 100.0%; height: 100.0%;">2nd at Folsom</div>`)[0];
+            popup_f4ee3d91423d450b83c054c201973dd3.setContent(html_dd15540c74fd4e17961473553ec1e0b1);
+        
+
+        marker_b9c0051957654a14b42717a07908d556.bindPopup(popup_f4ee3d91423d450b83c054c201973dd3)
+        ;
+
+        
+    
+    
+            var marker_959fff00191440ea871bf9d51a080f9a = L.marker(
+                [37.78697800000001, -122.398108],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_6a8d33394f954180b8d9adc75f8a00d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abbcf010809e42758f0303fd6ccb130a = $(`<div id="html_abbcf010809e42758f0303fd6ccb130a" style="width: 100.0%; height: 100.0%;">Howard at 2nd</div>`)[0];
+            popup_6a8d33394f954180b8d9adc75f8a00d9.setContent(html_abbcf010809e42758f0303fd6ccb130a);
+        
+
+        marker_959fff00191440ea871bf9d51a080f9a.bindPopup(popup_6a8d33394f954180b8d9adc75f8a00d9)
+        ;
+
+        
+    
+    
+            var marker_832b71b0ae8c42038f58a724aa0d5bc0 = L.marker(
+                [37.782259, -122.392738],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_f37daccc78384ca482a0c72cfee21e3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a445523286543f087b79db83d63b940 = $(`<div id="html_0a445523286543f087b79db83d63b940" style="width: 100.0%; height: 100.0%;">2nd at South Park</div>`)[0];
+            popup_f37daccc78384ca482a0c72cfee21e3c.setContent(html_0a445523286543f087b79db83d63b940);
+        
+
+        marker_832b71b0ae8c42038f58a724aa0d5bc0.bindPopup(popup_f37daccc78384ca482a0c72cfee21e3c)
+        ;
+
+        
+    
+    
+            var marker_f7adf02c07764dbaa185023c4914c2b8 = L.marker(
+                [37.771058, -122.402717],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_db807d5f8c18487291611427f9e6444c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2e00a6d27bc407c8ea8dc370754bb5a = $(`<div id="html_e2e00a6d27bc407c8ea8dc370754bb5a" style="width: 100.0%; height: 100.0%;">Townsend at 7th</div>`)[0];
+            popup_db807d5f8c18487291611427f9e6444c.setContent(html_e2e00a6d27bc407c8ea8dc370754bb5a);
+        
+
+        marker_f7adf02c07764dbaa185023c4914c2b8.bindPopup(popup_db807d5f8c18487291611427f9e6444c)
+        ;
+
+        
+    
+    
+            var marker_89afe21383384743b0a8fcfc6f00b92a = L.marker(
+                [37.774814, -122.418954],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_4ac1841329ba4cb6a9d741708828ae4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5fdfa60292e4b38ac14d977151e5231 = $(`<div id="html_d5fdfa60292e4b38ac14d977151e5231" style="width: 100.0%; height: 100.0%;">South Van Ness at Market</div>`)[0];
+            popup_4ac1841329ba4cb6a9d741708828ae4a.setContent(html_d5fdfa60292e4b38ac14d977151e5231);
+        
+
+        marker_89afe21383384743b0a8fcfc6f00b92a.bindPopup(popup_4ac1841329ba4cb6a9d741708828ae4a)
+        ;
+
+        
+    
+    
+            var marker_e8a4e45eced5403894f19aff6a03c1ce = L.marker(
+                [37.776619, -122.417385],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_d6cbab9c8a1d42fc81c5c89b3777b0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb10549334174643b22ebaea8408be6e = $(`<div id="html_fb10549334174643b22ebaea8408be6e" style="width: 100.0%; height: 100.0%;">Market at 10th</div>`)[0];
+            popup_d6cbab9c8a1d42fc81c5c89b3777b0b8.setContent(html_fb10549334174643b22ebaea8408be6e);
+        
+
+        marker_e8a4e45eced5403894f19aff6a03c1ce.bindPopup(popup_d6cbab9c8a1d42fc81c5c89b3777b0b8)
+        ;
+
+        
+    
+    
+            var marker_32652f6060e94e6d84d82ab948350239 = L.marker(
+                [37.784878000000006, -122.401014],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_b0350b7f51f5419a81374c02ae2edeb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef88167162784756aecf546456151119 = $(`<div id="html_ef88167162784756aecf546456151119" style="width: 100.0%; height: 100.0%;">Yerba Buena Center of the Arts (3rd @ Howard)</div>`)[0];
+            popup_b0350b7f51f5419a81374c02ae2edeb8.setContent(html_ef88167162784756aecf546456151119);
+        
+
+        marker_32652f6060e94e6d84d82ab948350239.bindPopup(popup_b0350b7f51f5419a81374c02ae2edeb8)
+        ;
+
+        
+    
+    
+            var marker_f66f8612f4a34c0fbc80b1e61a237575 = L.marker(
+                [37.7766, -122.39547],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_f7ea43742e2744f5b620fadb18658caa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6717cef4f7124dc5b1954f7af6f6a0d0 = $(`<div id="html_6717cef4f7124dc5b1954f7af6f6a0d0" style="width: 100.0%; height: 100.0%;">San Francisco Caltrain 2 (330 Townsend)</div>`)[0];
+            popup_f7ea43742e2744f5b620fadb18658caa.setContent(html_6717cef4f7124dc5b1954f7af6f6a0d0);
+        
+
+        marker_f66f8612f4a34c0fbc80b1e61a237575.bindPopup(popup_f7ea43742e2744f5b620fadb18658caa)
+        ;
+
+        
+    
+    
+            var marker_0a5e737b81e5416c8e2b8a8dc0032b79 = L.marker(
+                [37.776617, -122.39526],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_8748427fbbf44f33a827a0ffb6073c1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aa01371070745dda2ad149432734d38 = $(`<div id="html_1aa01371070745dda2ad149432734d38" style="width: 100.0%; height: 100.0%;">San Francisco Caltrain (Townsend at 4th)</div>`)[0];
+            popup_8748427fbbf44f33a827a0ffb6073c1f.setContent(html_1aa01371070745dda2ad149432734d38);
+        
+
+        marker_0a5e737b81e5416c8e2b8a8dc0032b79.bindPopup(popup_8748427fbbf44f33a827a0ffb6073c1f)
+        ;
+
+        
+    
+    
+            var marker_add2201a64454c7a82b8c9d58e3feaff = L.marker(
+                [37.788446, -122.408499],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_161c747ff6134b4fa95f17ae8378dd05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_614d8a45bfab4daf8a75beb01ce7e1e0 = $(`<div id="html_614d8a45bfab4daf8a75beb01ce7e1e0" style="width: 100.0%; height: 100.0%;">Powell at Post (Union Square)</div>`)[0];
+            popup_161c747ff6134b4fa95f17ae8378dd05.setContent(html_614d8a45bfab4daf8a75beb01ce7e1e0);
+        
+
+        marker_add2201a64454c7a82b8c9d58e3feaff.bindPopup(popup_161c747ff6134b4fa95f17ae8378dd05)
+        ;
+
+        
+    
+    
+            var marker_b31942af38094e6ab94d9d82ac321049 = L.marker(
+                [37.781039, -122.411748],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_1abe03a095a945c78896b1b48f1d6b56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faf6afcd76784c4c9c672ef4cffad30e = $(`<div id="html_faf6afcd76784c4c9c672ef4cffad30e" style="width: 100.0%; height: 100.0%;">Civic Center BART (7th at Market)</div>`)[0];
+            popup_1abe03a095a945c78896b1b48f1d6b56.setContent(html_faf6afcd76784c4c9c672ef4cffad30e);
+        
+
+        marker_b31942af38094e6ab94d9d82ac321049.bindPopup(popup_1abe03a095a945c78896b1b48f1d6b56)
+        ;
+
+        
+    
+    
+            var marker_e8cfa88ee8c3407aa9acdcf64c79aa54 = L.marker(
+                [37.798522, -122.407245],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_5dfe926145a3466295bca6d03a57a50f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44f09d27249e4893a6f7123ee7f31d83 = $(`<div id="html_44f09d27249e4893a6f7123ee7f31d83" style="width: 100.0%; height: 100.0%;">Grant Avenue at Columbus Avenue</div>`)[0];
+            popup_5dfe926145a3466295bca6d03a57a50f.setContent(html_44f09d27249e4893a6f7123ee7f31d83);
+        
+
+        marker_e8cfa88ee8c3407aa9acdcf64c79aa54.bindPopup(popup_5dfe926145a3466295bca6d03a57a50f)
+        ;
+
+        
+    
+    
+            var marker_e592b51a5e7c46e681807edc150ea2c8 = L.marker(
+                [37.794139, -122.394434],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_bc647af470cf4029ae01efa429349531 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad993c98acd34ea98d161619af9229aa = $(`<div id="html_ad993c98acd34ea98d161619af9229aa" style="width: 100.0%; height: 100.0%;">Steuart at Market</div>`)[0];
+            popup_bc647af470cf4029ae01efa429349531.setContent(html_ad993c98acd34ea98d161619af9229aa);
+        
+
+        marker_e592b51a5e7c46e681807edc150ea2c8.bindPopup(popup_bc647af470cf4029ae01efa429349531)
+        ;
+
+        
+    
+    
+            var marker_dfee0ad40b88407580dcf358ff9081f2 = L.marker(
+                [37.7913, -122.399051],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_2ee0169426814f019372ac54f0eb10c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1fb6d758b7d42adb870efd66341af3a = $(`<div id="html_d1fb6d758b7d42adb870efd66341af3a" style="width: 100.0%; height: 100.0%;">Mechanics Plaza (Market at Battery)</div>`)[0];
+            popup_2ee0169426814f019372ac54f0eb10c9.setContent(html_d1fb6d758b7d42adb870efd66341af3a);
+        
+
+        marker_dfee0ad40b88407580dcf358ff9081f2.bindPopup(popup_2ee0169426814f019372ac54f0eb10c9)
+        ;
+
+        
+    
+    
+            var marker_c76ed72e354b4eb2a58742176ee789f4 = L.marker(
+                [37.786305, -122.404966],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_646876bf27234bd6bf3f65e699b41f4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8207c10d288482b9adc81f2f58ce68f = $(`<div id="html_b8207c10d288482b9adc81f2f58ce68f" style="width: 100.0%; height: 100.0%;">Market at 4th</div>`)[0];
+            popup_646876bf27234bd6bf3f65e699b41f4a.setContent(html_b8207c10d288482b9adc81f2f58ce68f);
+        
+
+        marker_c76ed72e354b4eb2a58742176ee789f4.bindPopup(popup_646876bf27234bd6bf3f65e699b41f4a)
+        ;
+
+        
+    
+    
+            var marker_a1387aab682648f493f88c600c2bf29f = L.marker(
+                [37.789625, -122.400811],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_df72d952e2db49dfb2fb797d998db6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dd73bfa40144cf7820527faefc1c39f = $(`<div id="html_3dd73bfa40144cf7820527faefc1c39f" style="width: 100.0%; height: 100.0%;">Market at Sansome</div>`)[0];
+            popup_df72d952e2db49dfb2fb797d998db6a6.setContent(html_3dd73bfa40144cf7820527faefc1c39f);
+        
+
+        marker_a1387aab682648f493f88c600c2bf29f.bindPopup(popup_df72d952e2db49dfb2fb797d998db6a6)
+        ;
+
+        
+    
+    
+            var marker_52593146011e42dea07199d2195c4288 = L.marker(
+                [37.352601, -121.905733],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_b1d57e8c09074dbb91bcf4a68dafc0d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a7de6a357534a288d9d849f86b238cc = $(`<div id="html_2a7de6a357534a288d9d849f86b238cc" style="width: 100.0%; height: 100.0%;">Santa Clara County Civic Center</div>`)[0];
+            popup_b1d57e8c09074dbb91bcf4a68dafc0d8.setContent(html_2a7de6a357534a288d9d849f86b238cc);
+        
+
+        marker_52593146011e42dea07199d2195c4288.bindPopup(popup_b1d57e8c09074dbb91bcf4a68dafc0d8)
+        ;
+
+        
+    
+    
+            var marker_6817f3a184bb4c16b4e3a06f2645836d = L.marker(
+                [37.798541, -122.40086200000002],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_05b8429f1bd6406cb5fba4038ff8f513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_509a2ed018914c94a956d258f56e12b5 = $(`<div id="html_509a2ed018914c94a956d258f56e12b5" style="width: 100.0%; height: 100.0%;">Broadway St at Battery St</div>`)[0];
+            popup_05b8429f1bd6406cb5fba4038ff8f513.setContent(html_509a2ed018914c94a956d258f56e12b5);
+        
+
+        marker_6817f3a184bb4c16b4e3a06f2645836d.bindPopup(popup_05b8429f1bd6406cb5fba4038ff8f513)
+        ;
+
+        
+    
+    
+            var marker_a749f9131cea4954b2d40ecfda5327cd = L.marker(
+                [37.491269, -122.236234],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_98abd46d1fbd4fdeaf6a3b3618350b37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ccb3aa78da24a08a203356e7a7f2401 = $(`<div id="html_6ccb3aa78da24a08a203356e7a7f2401" style="width: 100.0%; height: 100.0%;">Mezes Park</div>`)[0];
+            popup_98abd46d1fbd4fdeaf6a3b3618350b37.setContent(html_6ccb3aa78da24a08a203356e7a7f2401);
+        
+
+        marker_a749f9131cea4954b2d40ecfda5327cd.bindPopup(popup_98abd46d1fbd4fdeaf6a3b3618350b37)
+        ;
+
+        
+    
+    
+            var marker_119abbb1ef454a50b1be000edd273710 = L.marker(
+                [37.342725, -121.895617],
+                {}
+            ).addTo(map_f79956eb1a3e4edea5f76d3a35a07dda);
+        
+    
+        var popup_623ce9dcc675406fa1fb5afb90684dd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_644a2c48c6094761a16d516d0e7d3e77 = $(`<div id="html_644a2c48c6094761a16d516d0e7d3e77" style="width: 100.0%; height: 100.0%;">Ryland Park</div>`)[0];
+            popup_623ce9dcc675406fa1fb5afb90684dd1.setContent(html_644a2c48c6094761a16d516d0e7d3e77);
+        
+
+        marker_119abbb1ef454a50b1be000edd273710.bindPopup(popup_623ce9dcc675406fa1fb5afb90684dd1)
+        ;
+
+        
+    
+</script>
