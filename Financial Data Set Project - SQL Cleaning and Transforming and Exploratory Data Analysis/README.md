@@ -13,7 +13,8 @@ Since the task was about cleaning, transforming, translating the DB to analyze i
 - Loan
 - Order
 
-### 2) However, the table *Trans* can't be imported using the Import wizard so fast. This is why the Python code was written: to read the CSV with the trans information and to record it in a table on the Berka DB.
+### 2) However, the table *Trans* can't be imported using the Import wizard so fast. This is why the Python code was written: to read the CSV with the trans information and to record it in a table on the Berka DB. 
+[Trans table creation.ipynb](https://github.com/vmcarva/python/blob/master/Financial%20Data%20Set%20Project%20-%20SQL%20Cleaning%20and%20Transforming%20and%20Exploratory%20Data%20Analysis/Trans%20table%20creation.ipynb)
 
 ### 3) Following this step, the scripts below were executed to clean, transform and translated information on the DB:
 - [Basic Data Cleaning and Transformation.sql](https://github.com/vmcarva/python/blob/master/Financial%20Data%20Set%20Project%20-%20SQL%20Cleaning%20and%20Transforming%20and%20Exploratory%20Data%20Analysis/Basic%20Data%20Cleaning%20and%20Transformation.sql)
