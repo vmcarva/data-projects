@@ -3,7 +3,7 @@
 The main goal was to pick a data set and produce an exploratory data analysis, covering steps of acquisition, wrangling, analysis, and reporting. 
 
 # Chosen Data Set: [SF Bay Area Bike Share](https://www.kaggle.com/benhamner/sf-bay-area-bike-share)
-## Additionally the data set [Historical Hourly Weather Data 2012-2017](https://www.kaggle.com/selfishgene/historical-hourly-weather-data) was used to provide more weather information. 
+Additionally the data set [Historical Hourly Weather Data 2012-2017](https://www.kaggle.com/selfishgene/historical-hourly-weather-data) was used to provide more weather information. 
 
 ## Deliverables
 
