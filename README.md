@@ -8,3 +8,5 @@ Projects and exercises to practice my data skills
 - Shark Attack Project - Data Cleaning and Wrangling with Pandas 
 
 - SF Bay Bike Share Project - Exploratory Data Analysis 
+
+- Financial Data Set Project - SQL Cleaning and Transforming and Exploratory Data Analysis
