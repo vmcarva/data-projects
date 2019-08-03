@@ -13,7 +13,7 @@ Since the task was about cleaning, transforming, translating and analyzing the D
 - Loan
 - Order
 
-## 2) However, the table *Trans* can't be imported using the Import wizard so fast. This is why the code below on this Jupyter was written: to read the CSV with the trans information and to record it in a table on the Berka DB.
+## 2) However, the table *Trans* can't be imported using the Import wizard so fast. This is why the Python code was written: to read the CSV with the trans information and to record it in a table on the Berka DB.
 
 ## 3) Following this step, the scripts below were executed to clean, transform and translated information on the DB:
 - ../Basic Data Cleaning and Transformation.sql
