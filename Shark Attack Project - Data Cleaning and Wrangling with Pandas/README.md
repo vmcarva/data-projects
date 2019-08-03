@@ -2,17 +2,17 @@
 
 ## Task
 
-Use data wrangling, cleaning, and manipulation with Pandas. Start with this messy data set [Shark Attack](https://www.kaggle.com/teajay/global-shark-attacks/version/1). Import it, use your data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file.
+Use data wrangling, cleaning, and manipulation with Pandas. Start with this messy data set [Shark Attack](https://www.kaggle.com/teajay/global-shark-attacks/version/1). Import and use data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file.
 
 ## Technical Requirements
 
 The technical requirements for this project are as follows:
 
-* The dataset tis a significantly messy data set. Apply different cleaning and manipulation techniques.
+* The dataset is a significantly messy data set. Apply different cleaning and manipulation techniques.
 * Import the data using Pandas.
 * Examine the data for potential issues.
 * Use cleaning and manipulation methods on the data.
-* Produce a Jupyter Notebook that shows the steps taken and the code used to clean and transform your data set.
+* Produce a Jupyter Notebook that shows the steps taken and the code used to clean and transform the data set.
 * Export a clean CSV version the data using Pandas.
 
 ## Necessary Deliverables
