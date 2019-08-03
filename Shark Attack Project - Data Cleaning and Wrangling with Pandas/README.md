@@ -8,12 +8,12 @@ Use data wrangling, cleaning, and manipulation with Pandas. Start with this mess
 
 The technical requirements for this project are as follows:
 
-* The dataset that we provide you is a significantly messy data set. Apply the different cleaning and manipulation techniques you have learned.
+* The dataset tis a significantly messy data set. Apply different cleaning and manipulation techniques.
 * Import the data using Pandas.
 * Examine the data for potential issues.
 * Use cleaning and manipulation methods on the data.
-* Produce a Jupyter Notebook that shows the steps you took and the code you used to clean and transform your data set.
-* Export a clean CSV version of your data using Pandas.
+* Produce a Jupyter Notebook that shows the steps taken and the code used to clean and transform your data set.
+* Export a clean CSV version the data using Pandas.
 
 ## Necessary Deliverables
 
