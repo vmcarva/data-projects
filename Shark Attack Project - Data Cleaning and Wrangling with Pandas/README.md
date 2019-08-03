@@ -2,7 +2,7 @@
 
 ## Task
 
-Use data wrangling, cleaning, and manipulation with Pandas. Start with this messy data set [Shark Attack](https://www.kaggle.com/teajay/global-shark-attacks/version/1). Import and use data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file.
+Use data wrangling, cleaning, and manipulation with Pandas. Start by importing this messy data set [Shark Attack](https://www.kaggle.com/teajay/global-shark-attacks/version/1). Use data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file.
 
 ## Technical Requirements
 
