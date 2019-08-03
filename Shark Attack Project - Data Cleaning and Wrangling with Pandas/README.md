@@ -13,7 +13,7 @@ The technical requirements for this project are as follows:
 * Examine the data for potential issues.
 * Use cleaning and manipulation methods on the data.
 * Produce a Jupyter Notebook that shows the steps taken and the code used to clean and transform the data set.
-* Export a clean CSV version the data using Pandas.
+* Export a clean CSV version of the data using Pandas.
 
 ## Necessary Deliverables
 
