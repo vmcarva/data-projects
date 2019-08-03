@@ -28,7 +28,7 @@ The basic technical requirements for this project are as follows:
 * There should be some data set that gets imported and some result that gets exported.
 * Your code should be saved in a Python executable file or Jupyter.
 
-## How did I Get Started
+## How Did I Get Started?
 
 * **Find a data set to process** - You can use a dataset you are familiar with like [Sharks](https://www.kaggle.com/teajay/global-shark-attacks/version/1) or find another. A great place to start looking would be [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets) and [Kaggle Data Sets](https://www.kaggle.com/datasets).
 * **Examine the data and come up with a deliverable** before diving in and applying any methods to it.
