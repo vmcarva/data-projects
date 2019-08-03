@@ -1,6 +1,6 @@
 # Project Guide
 
-The task is given in the file: berka.pdf
+The task is given in the file: [berka.pdf](https://github.com/vmcarva/python/blob/master/Financial%20Data%20Set%20Project%20-%20SQL%20Cleaning%20and%20Transforming%20and%20Exploratory%20Data%20Analysis/berka.pdf)
 
 Since the task was about cleaning, transforming, translating and analyzing the DB, the primary and foreign keys were assumed to be consistent already, since the files were probably exported from an original working DB. 
 
