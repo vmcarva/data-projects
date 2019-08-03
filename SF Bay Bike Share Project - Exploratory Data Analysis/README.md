@@ -14,11 +14,11 @@ Additionally the data set [Historical Hourly Weather Data 2012-2017](https://www
 [Main Insights](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/SF%20Bay%20Area%20Bike%20Share.pdf)
 
 ### Interactive HTML Files
-[heatMap](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/heatmap.html)
-[Markers](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/marker.html)
-[heatMapTime](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/heatMapTime.html)
-[Simple Trip Flow](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/trip_flow_simple.html)
-[Trip Flow with Intensity](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/trip_flow_wintensity.html)
+- [heatMap](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/heatmap.html)
+- [Markers](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/marker.html)
+- [heatMapTime](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/heatMapTime.html)
+- [Simple Trip Flow](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/trip_flow_simple.html)
+- [Trip Flow with Intensity](https://github.com/vmcarva/python/blob/master/SF%20Bay%20Bike%20Share%20Project%20-%20Exploratory%20Data%20Analysis/trip_flow_wintensity.html)
 
 ## Technical Requirements
 
