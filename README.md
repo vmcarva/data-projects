@@ -9,4 +9,4 @@ Projects and exercises to practice my data skills
 
 - SF Bay Bike Share - Exploratory Data Analysis 
 
-- Financial Data Set - SQL Cleaning & Transforming and Exploratory Data Analysis
+- Financial Data Set - SQL Cleaning & Transforming for DB Creation
