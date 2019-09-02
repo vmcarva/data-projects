@@ -1,6 +1,6 @@
 # Data-Science-Challenge
 
-As respostas dos exercícios e os modelos para predição de churn de clientes estão desenvolvidos no notebook **Ambev - Data Science Challenge**. As bibliotecas necessárias para rodar este notebook em outros ambientes foram geradas no arquivo **requirements.txt**.
+As respostas dos exercícios e os modelos para predição de churn de clientes estão desenvolvidos no notebook **Ambev - Data Science Challenge**.
 
 A estratégia foi testar modelos com dois algoritmos diferentes em uma base com features de valores agregados e gerados da base original. A escolha de um modelo mais convencional contra um modelo mais robusto foi proposital para contrastar o desempenho de cada um deles em identificar os casos de churn. 
 
